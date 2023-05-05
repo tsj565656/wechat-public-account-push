@@ -8,43 +8,43 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx5111a673a8ec647b',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'b6ab0ee42df5b749ef5318f3aa18ab98',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '山东',
+  CITY: '济南',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '小常',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oRnwj5_uu7xJmnxgMDSLHZURlnNM',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'C5ca3nMVujyvtxYNwyEPfat4iOW6dwhKhag3OXyltDA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '12-30',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '*生日', name: '小常', year: '2003', date: '12-07',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '小常', year: '2003', date: '12-30',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '恋爱纪念日', year: '2023', date: '03-17',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'love_day', date: '2023-03-17' },
+        // 恋爱纪念日
+        { keyword: 'marry_day', date: '2023-03-17' },
       ],
     },
   ],
